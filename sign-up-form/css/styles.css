@@ -17,12 +17,16 @@
 .main-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1400px;
+  justify-content: center;
+  max-width: 1200px;
+  height: 80vh;
   justify-content: space-between;
+  padding: 0 3rem;
 }
 
 .content {
-  margin: 5rem;
+  margin-right: 6rem;
+  align-self: center;
 }
 
 .content h1 {
@@ -36,4 +40,36 @@
 .content p {
   color: #fff;
   font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+.container-form {
+  align-self: center;
+}
+
+.container-form form {
+  grid-template-columns: 1fr;
+  display: grid;
+  background-color: #fff;
+  border-radius: 0.6rem;
+  justify-content: space-between;
+  padding: 2.5rem;
+  height: 50vh;
+}
+
+.container-form input {
+  height: 3rem;
+  border: 1px solid #c7c7c7;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  font-weight: bold;
+}
+
+.call-to-action {
+  background-color: hsl(248, 32%, 49%);
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 1.3rem;
+  border-radius: 0.6rem;
 }
